@@ -15,8 +15,18 @@ pip install -r requirements.txt
 *(Note: If you run into Application Control / AppLocker blocks on Windows while using a virtual environment, please deactivate your `.venv` and install the requirements globally).*
 
 ### 2. Prepare Data Directories
-1. **Resumes**: Place all your candidate resumes (in `.pdf`, `.doc`, or `.docx` format) anywhere inside the `resumes/` folder. The system will recursively search any sub-folders (domains) you create inside it.
-2. **Job Descriptions**: Place your Job Description text files inside the `jds/` folder. (e.g. `jds/sample_jd.txt`).
+
+**Resumes Data**
+Due to the large number of resumes, they are not pushed to this repository. You must download them manually and place them in the `resumes` directory.
+1. Download the Kaggle Resume Dataset from: [https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset/data](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset/data)
+2. Extract the downloaded archive.
+3. Create a `resumes/` folder in the root directory.
+4. Place all the extracted candidate resumes inside the `resumes/` folder. The system will recursively search any sub-folders (domains) you create inside it.
+
+*(Note: The `resumes/` folder is included in `.gitignore` to prevent pushing large volumes of data.)*
+
+**Job Descriptions**
+Place your Job Description text files inside the `jds/` folder. (e.g. `jds/sample_jd.txt`).
 
 ---
 

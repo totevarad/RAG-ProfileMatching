@@ -21,3 +21,6 @@ match_results.json
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore resumes dataset
+resumes/
