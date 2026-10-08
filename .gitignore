@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector database storage
+chroma_db/
+
+# Output and logs
+match_results.json
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

@@ -1,0 +1,6 @@
+Senior Python Data Scientist
+
+We are looking for a Senior Data Scientist with 5+ years of experience.
+Must have strong skills in Python, Machine Learning, Data Science, and SQL.
+Experience with AWS or GCP is a big plus.
+You will be working on building predictive models and deploying them using Docker.
